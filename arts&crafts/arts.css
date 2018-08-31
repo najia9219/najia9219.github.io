@@ -1,0 +1,106 @@
+#content{
+  background-image: url("images/pattern.jpeg");
+  background-size: cover;
+  background-position: top left;
+  height:700px;
+  width: 75%;
+  float: left;
+  margin-top: -30px;
+}
+#nav{
+  background: lightblue;
+  width: 25%;
+  height:700px;
+  float: right;
+  margin-top: -30px;
+}
+#nav li{
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+h1 {font-family: Helvetica;
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+  color: khaki;
+}
+h3 {font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+h3.brushes {
+  background-color: mediumspringgreen;
+}
+img{
+  width:50%;
+  height: 400px;
+  top: 0;
+}
+h3.frames {
+  background-color: lightcoral;
+}
+h3.paint {
+  background-color: skyblue;
+}
+h4{
+  font-family: arial;
+  font-weight: bold;
+}
+p b {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+.title{
+  position: absolute;
+  margin-top: -400px;
+  left: 700px;
+  width: 25%;
+  float: right;
+  font-weight: bold;
+  font-size: 30px;
+}
+#frames .title1{
+  margin-top: -440px;
+  position: absolute;
+  left: 700px;
+  width: 25%;
+  float: right;
+  font-weight: bold;
+  font-size: 30px;
+}
+#paint .title2{
+  margin-top: -440px;
+  position: absolute;
+  left: 700px;
+  width: 25%;
+  float: right;
+  font-weight: bold;
+  font-size: 30px;
+}
+#hacksaw p{
+  position: absolute;
+  margin-top: -350px;
+  left:700px;
+  width: 25%;
+  float: right;
+}
+#frames p{
+  position: absolute;
+  margin-top: -350px;
+  left:700px;
+  width: 25%;
+  float: right;
+}
+#paint p{
+  position: absolute;
+  margin-top: -350px;
+  left:700px;
+  width: 25%;
+  float: right;
+}

@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<title> Portfolio </title>
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <style>
+      body{
+        font-family: 'Crimson Text', serif;
+        color: white;
+        background-color: black;
+      }
+      .navigation{
+        display: block;
+        text-align: center;
+        float: right;
+        margin-top: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin:0;
+        overflow: hidden;
+      }
+
+      li{
+        float:right;
+        text-align: center;
+        display: inline;
+        padding-right: 20px;
+      }
+
+      li a{
+        color: white;
+        padding: 8px;
+        font-family:'Crimson Text', serif;
+        font-size: 18px;
+      }
+      .bg {
+        background-image: url("images/web.gif");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        margin-left: 140px;
+        margin-top: -100px;
+      }
+      h1{
+        padding-top: 30px;
+      }
+      .col1 {
+        width: 30%;
+        margin-top: 100px;
+        float: left;
+        margin-left: 30px;
+      }
+      .col2 {
+        width: 30%;
+        padding: 10px;
+        float: left;
+        margin-top: 85px;
+        margin-left: 10px;
+      }
+      .col3 {
+        width: 30%;
+        padding: 10px;
+        float: right;
+        margin-top: 80px;
+        margin-left: 10px;
+      }
+      .zoom1, .zoom2, .zoom3 {
+        transition: transform .1s;
+        font-size: 25px;
+        text-align: center;
+      }
+      .zoom1:hover {
+        transform: scale(1.1);
+      }
+      .zoom2:hover {
+        transform: scale(1.1);
+      }
+      .zoom3:hover {
+        transform: scale(1.1);
+      }
+    </style>
+
+  <body>
+    <nav class="navigation">
+      <ul>
+        <li> <a href="contact_me.html" target="_blank"> Contact Me </a> </li>
+        <li> <a href="portfolio.html" target="_blank"> Portfolio </a> </li>
+        <li> <a href="skills.html"> Skills </a> </li>
+        <li> <a href="about_me.html" target="_blank"> About Me </a> </li>
+      </ul>
+    </nav>
+
+
+    <h1> Portfolio </h1>
+    <div class="bg"> </div>
+
+    <div class="zoom1">
+      <div class="col1">
+        <a href="Jackson/index.html" target="_blank"> <img src ="images/responsive.png" width="250px" height="150px"> </a>
+        <h3> Responsive Design </h3>
+          <p> SASS + Bootstrap + JavaScript </p>
+      </div>
+    </div>
+    <div class="zoom2">
+      <div class="col2">
+        <a href="dreamgym/index.html" target="_blank"> <img src ="images/animation.png" width="300px" height="150px"> </a>
+        <h3> CSS Animation </h3>
+          <p> SASS + Bootstrap + Animation </p>
+      </div>
+    </div>
+    <div class="zoom3">
+      <div class="col3">
+        <a href="my_projects.html" target="_blank"> <img src ="images/other.png" width="250px" height="150px"> </a>
+        <h3> My Projects </h3>
+      </div>
+    </div>
+
+    </div>
+
+
+  </body>
+
+</html>

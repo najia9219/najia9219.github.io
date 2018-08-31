@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+  <title> Contact Page </title>
+  <style>
+    header {
+      text-align: center;
+      color: white;
+      background-color: blue;
+    }
+    main {
+      margin-left: 15px;
+    }
+    body{
+      background-color: lavender;
+    }
+    h2 {
+      color: navy;
+    }
+    p b {
+      color: red;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1> Contact Page </h1>
+  </header>
+  <main>
+      <form action="http://www.example.com/profile.php">
+      <h2> Contact details </h2>
+      <p> <b>*<b>required field </p>
+
+      <p> Gender: <br/>
+        <input type="radio" name="gender" value="male"/>Male
+        <input type="radio" name="gender" value="female"/>Female
+      </p>
+
+      <p> First Name<b>*</b>: <br/>
+        <input type="text" name="firstname" size="15" maxlength="30"/> </p>
+      <br/>
+
+      <p> Last Name<b>*</b>: <br/>
+        <input type="text" name="lastname" size="15" maxlength="30"/> </p>
+      </br>
+
+      <p> Grade Level<b>*</b>: <select name="grade">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      </p>
+
+      <br/>
+      <p> Email<b>*</b>: <br/>
+        <input type="email" name="email"/> </p>
+      </br>
+
+      <p> Street Address Line 1<b>*</b>: <br/>
+        <input type="address" name="address" size="50"/> </p>
+      </br>
+
+      <p> Street Address Line 2: <br/>
+        <input type="address" name="address"/> </p>
+      </br>
+
+      <p> City<b>*</b>: <br/>
+        <input type="city" name="city" size="20"/> </p>
+      </p>
+
+      <p> State<b>*</b>: <br/>
+        <select name="states">
+          <option value="Alabama"> Alabama </option>
+          <option value="Alaska"> Alaska </option>
+          <option value="Arizona">Arizona</option>
+          <option value="Arkansas">Arkansas</option>
+          <option value="Alabama"> California </option>
+          <option value="Alaska"> Colorado </option>
+          <option value="Arizona">Connecticut</option>
+          <option value="Arkansas">Delaware</option>
+          <option value="Alabama"> Florida </option>
+          <option value="Alaska">Georgia </option>
+          <option value="Arizona">Hawaii</option>
+          <option value="Arkansas">Idaho</option>
+          <option value="Alabama"> illinois </option>
+          <option value="Alaska"> Indiana </option>
+          <option value="Arizona">Iowa</option>
+          <option value="Arkansas">Kansas</option>
+          <option value="Alabama"> Kentucky </option>
+          <option value="Alaska"> Louisiana </option>
+          <option value="Arizona">Maine</option>
+          <option value="Arkansas">Maryland</option>
+          <option value="Alabama"> Massachusetts </option>
+          <option value="Alaska"> Michigan </option>
+          <option value="Arizona">Mississippi</option>
+          <option value="Arkansas">Missouri</option>
+          <option value="Alabama"> Montana </option>
+          <option value="Alaska"> Nebraska </option>
+          <option value="Arizona">Nevada</option>
+          <option value="Arkansas">New Hampshire</option>
+          <option value="Alabama"> New Jersey </option>
+          <option value="Alaska"> New Mexico </option>
+          <option value="Arizona">New York</option>
+          <option value="Arkansas">North Carolina</option>
+          <option value="Alabama"> North Dakota </option>
+          <option value="Alaska"> Ohio </option>
+          <option value="Arizona">Oklahoma</option>
+          <option value="Arkansas">Oregon</option>
+          <option value="Alabama"> Pennsylvania </option>
+          <option value="Alaska"> Rhode Island </option>
+          <option value="Arizona">South Carolina</option>
+          <option value="Arkansas">South Dakota</option>
+          <option value="Alabama"> Tennessee </option>
+          <option value="Alaska"> Texas </option>
+          <option value="Arizona">Utah</option>
+          <option value="Arkansas">Vermont</option>
+          <option value="Alabama"> Virginia </option>
+          <option value="Alaska"> Washington </option>
+          <option value="Arizona">Wisconsin</option>
+          <option value="Arkansas">Wyoming</option>
+        </select>
+      </p>
+      <br/>
+
+      <p> Zip Code<b>*</b>: <br/>
+        <input type="text" name="zip_code" size="5"maxlength="10"/> </p>
+
+      <br/>
+
+      <p> Please leave your questions/comments:
+      <br/>
+      <br/>
+        <textarea name="comments" cols="60" rows="10"> Enter your comments...</textarea>
+      </p>
+    <br/>
+        <input type="checkbox" name="signup" value="emailupdate"/> SIGN UP FOR EMAIL UPDATES
+    <br/>
+    <br/>
+        <input type="submit" name="submit" value="Submit"/>
+        <input type="submit" name="cancel" value="Cancel"/>
+    </form>
+
+  </main>
+</body>
+</html>

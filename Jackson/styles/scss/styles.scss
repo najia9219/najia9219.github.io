@@ -1,0 +1,50 @@
+@import 'base';
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+@media (max-width:768px) {
+	h1{
+		font-size: 100px;
+		font-family: 'Tangerine', cursive;
+		text-align: center;
+		margin: 0 auto;
+}
+	.row{
+		margin: 30px auto;
+		p{
+			padding-bottom: 30px;
+		}
+	}
+	.tiger{
+		p br{
+			display: none;
+		}
+		p{
+			font-size: 16px;
+		}
+	}
+	.style{
+		p{
+			font-size: 22px;
+		}
+	}
+	.pop{
+		p{
+			font-size: 22px;
+			text-align: center;
+		}
+	}
+	.footer{
+		p br{
+			display: none;
+		}
+		p{
+			font-size: 19px;
+		}
+	}
+}
+@media (min-width:768px) {
+	@import 'tablet';
+}
+@media (min-width:992px) {
+	@import 'desktop';
+}

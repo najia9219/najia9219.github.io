@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <title> Quiz </title>
+  <style>
+    header {
+      text-align: center;
+      color: white;
+      background-color: blue;
+    }
+    main {
+      margin: 0 360px;
+      border: 1px solid navy;
+      padding: 20px;
+    }
+    body{
+      background-color: lavender;
+    }
+    h2 {
+      color: navy;
+    }
+    main p {
+      text-align: left;
+    }
+    li {
+      list-style-type: none;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <header> <h1> Legislative Branch Quiz </h1> </header>
+    <main>
+      <form action="http://www.example.com/legislativequiz.php">
+        <p> Question 1: What is the function of the legislative branch?
+          <br/>
+            <input type="checkbox" name="funtion" value="carriesoutlaws"/> Carries out laws <br/>
+            <input type="checkbox" name="function" value="makeslaws"/> Makes laws <br/>
+            <input type="checkbox" name="function" value="evaluateslaws"/> Evaluates laws <br/>
+            <input type="checkbox" name="function" value="noneoftheabove"/> None of the above <br/>
+        </p>
+        <br/>
+        <p> Question 2: The legislative branch includes </p>
+          <select name="legislature">
+            <option value="select">Select</option>
+            <option value="courts">Supreme Court</option>
+            <option value="cabinet">The Cabinet</option>
+            <option value="congress">Congress</option>
+            <option value="jusices">The Justices</option>
+          </select>
+          <br/>
+        <p> Question 3: Article I of the Consitution establishes the legislative or lawmaking branch of government. <br/>
+            <input type="radio" name="true" value="true"/> True
+            <input type="radio" name="true" value="false"/> False
+          </p>
+          <br/>
+        <p> Question 4: The Legislative Branch enacts <input type="text" size="10"/>, confirms or rejects <input type="text" size="10"/>, and has the authority to <input type="text" size="10"/> <input type="text" size="5"/>.
+          </p>
+        <br/>
+        <p> Question 5: In 200 words, describe how the laws are made. </P>
+          <textarea name="comments" cols="55" rows="15"> </textarea>
+
+        <br/>
+        <br/>
+
+          <input type="submit" name="submit" value="Submit"/>
+
+      </form>
+    </main>
+
+</body>
+
+</html>

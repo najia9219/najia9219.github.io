@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+img {
+  width: 100%;
+}
+
+.badMike {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 100px;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .row {
+    margin: 30px auto;
+  }
+  .row p {
+    padding-bottom: 30px;
+  }
+  .tiger p br {
+    display: none;
+  }
+  .tiger p {
+    font-size: 16px;
+  }
+  .style p {
+    font-size: 22px;
+  }
+  .pop p {
+    font-size: 22px;
+    text-align: center;
+  }
+  .footer p br {
+    display: none;
+  }
+  .footer p {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 140px;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    margin: 0 auto;
+  }
+  h1 br {
+    display: none;
+  }
+  .row {
+    margin: 50px auto;
+  }
+  .tiger {
+    font-size: 16px;
+  }
+  .style p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .pop p {
+    font-size: 21px;
+    margin: auto 0;
+  }
+  .footer {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .badmike {
+    display: block;
+  }
+  .badmike p {
+    font-size: 42px;
+  }
+  h1 {
+    font-size: 250px;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+  }
+  .row {
+    margin: 60px auto;
+  }
+  .tiger p {
+    font-size: 20px;
+  }
+  .style p {
+    font-size: 26px;
+  }
+  .pop p {
+    font-size: 35px;
+    padding: 30px 0;
+  }
+  .footer {
+    text-align: center;
+    font-size: 35px;
+  }
+}

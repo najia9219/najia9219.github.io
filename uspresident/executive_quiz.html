@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Quiz </title>
+    <style>
+      header {
+        text-align: center;
+        color: white;
+        background-color: blue;
+      }
+      main {
+        margin: 0 400px;
+        border: 1px solid navy;
+        padding: 20px;
+      }
+      body{
+        background-color: lavender;
+      }
+      h2 {
+        color: navy;
+      }
+      main p {
+        text-align: left;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header> <h1> Executive Branch Quiz </h1> </header>
+      <main>
+        <form action="http://www.example.com/executivequiz.php">
+        <p> Question 1: What does the executive branch consist? <br/>
+          <input type="checkbox" name="member" value="president"/>President <br/>
+          <input type="checkbox" name="member" value="vicepresident"/>Vice President<br/>
+          <input type="checkbox" name="member" value="cabinet"/>The Cabinet<br/>
+          <input type="checkbox" name="member" value="alloftheabove"/>All of the above<br/>
+        </p>
+
+        <br/>
+
+        <p> Question 2: The executive branch carries out and enforces laws. <br/>
+          <input type="radio" name="true" value="true"/> True
+          <input type="radio" name="true" value="false"/> False
+        </p>
+
+        <br/>
+
+        <p> Question 3: The <input class="blanks" type="text" size="10"/> Office of the President has responsibility for tasks ranging from communicating the President's <input type="text" size="10"/> to the American people to promoting the country's <input type="text" size="10"/> <input type="text" size="10"/> abroad.</p>
+
+
+        <br/>
+
+        <p> Question 4: Which President served twice but not consecutively? </p>
+          <select name="president">
+            <option value="select">Select</option>
+            <option value="georgewashington">George Washington</option>
+            <option value="grovercleveland">Grover Cleveland</option>
+            <option value="benjaminharrison">Benjamin Harrison</option>
+            <option value="abrahamlincoln">Abraham Lincoln</option>
+          </select>
+
+          <br/>
+          <br/>
+
+          <p> Question 5: What are some executive departments of the executive branch? (You can select more than one option by holding
+          down control on a PC or command key on a Mac
+          while selecting different options.) </p>
+          <select name="departments" size="5" multiple="multiple">
+            <option value="agriculture">U.S. Department of Agriculture</option>
+            <option value="clerk">House Office of the Clerk</option>
+            <option value="commerce">U.S. Department of Commerce</option>
+            <option value="compliance">Office of Compliance</option>
+            <option value="energy">U.S. Department of Energy</option>
+          </select>
+
+          <br/>
+          <br/>
+
+          <p> Question 6: In 200 words, describe the key roles of the executive branch. </P>
+            <textarea name="comments" cols="55" rows="15"> </textarea>
+
+          <br/>
+          <br/>
+
+            <input type="submit" name="submit" value="Submit"/>
+
+
+
+
+
+
+      </form>
+    </main>
+
+  </body>
+</html>

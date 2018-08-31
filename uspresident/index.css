@@ -1,0 +1,43 @@
+header {
+  text-align: center;
+  padding: 1em;
+  background-image: url("images/americanflag.jpg");
+  background-repeat: no-repeat;
+  color: dodgerblue;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+body{
+  background-color: lavender;
+}
+
+nav{
+  float: left;
+}
+nav li{
+  list-style-type: none;
+}
+main {
+  text-align: left;
+  margin-left: 300px;
+  border-left: 1px solid grey;
+  padding-left: 1em;
+}
+
+
+section h1 {
+  color: blue;
+}
+
+section h3{
+  color:red;
+}
+
+footer {
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  font-size:17px;
+}
